@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>My Playback</title>
+    <style>
+      .player {
+        width: 640px;
+        height: 360px;
+        overflow: hidden;
+      }
+      .buttons {
+        width:  640px;
+      }
+      .button {
+        width:  640px;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="player"></div>
+    <script src="clappr.min.js"></script>
+    <script src="myplayback.js"></script>
+    <script type="text/javascript">
+      var player = new Clappr.Player({
+        source: 'https://static.playmedia-cdn.net/resources/sample/h264_sintel_trailer-1080p.mp4',
+        plugins: [MyPlayback],
+        parent: '.player',
+        width: '100%',
+        height: '100%',
+      });
+    </script>
+  </body>
+</html>
