@@ -27,5 +27,5 @@ $ yarn run dist
 Adjusts to your needs :
 
 * `main` field value in [package.json](https://github.com/kslimani/clappr-playback-boilerplate/blob/master/package.json#L2) file
-* `pluginName` and `pluginClass` values in [Webpack configuration](https://github.com/kslimani/clappr-playback-boilerplate/blob/master/webpack.config.js#L7) file
+* `pluginName` and `pluginClass` values in [Webpack configuration](https://github.com/kslimani/clappr-playback-boilerplate/blob/master/webpack.config.js#L8) file
 * the class name and `name` return value in [main source](https://github.com/kslimani/clappr-playback-boilerplate/blob/master/src/index.js#L4) file
