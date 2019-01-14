@@ -11,9 +11,12 @@
   </head>
   <body>
     <div class="player"></div>
-    <script src="clappr.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@0.2.100/dist/clappr.min.js"></script>
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script> -->
     <script src="myplayback.js"></script>
     <script type="text/javascript">
+      console.log && console.log('Clappr version ' + Clappr.version);
+
       var player = new Clappr.Player({
         source: 'https://static.playmedia-cdn.net/resources/sample/h264_sintel_trailer-1080p.mp4',
         plugins: [MyPlayback],
