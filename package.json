@@ -14,7 +14,7 @@
     "core-js": "^3.4",
     "uglifyjs-webpack-plugin": "^2.2",
     "webpack": "^4.0",
-    "webpack-build-notifier": "^1.1",
+    "webpack-build-notifier": "^2.2.1",
     "webpack-cli": "^3.3",
     "webpack-dev-server": "^3.8"
   }
